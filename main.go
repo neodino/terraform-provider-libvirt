@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/dmacvicar/terraform-provider-libvirt/libvirt"
-	"github.com/hashicorp/terraform/plugin"
 	"math/rand"
 	"time"
+
+	"github.com/hashicorp/terraform/plugin"
+	"github.com/neodino/terraform-provider-libvirt/libvirt"
 )
 
 func main() {
